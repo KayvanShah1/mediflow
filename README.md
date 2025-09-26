@@ -181,7 +181,7 @@ erDiagram
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/mediflow.git
+git clone https://github.com/KayvanShah1/mediflow.git
 cd mediflow
 ```
 
