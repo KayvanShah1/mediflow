@@ -247,7 +247,7 @@ dbt docs serve
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 
-## ⚠️ Disclaimer
+### Disclaimer
 
 This project uses **publicly available and synthetic datasets (e.g., CMS PUFs, SynPUFs)**.
 It is intended **solely for educational and demonstration purposes**.
