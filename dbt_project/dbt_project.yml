@@ -1,0 +1,18 @@
+name: "mediflow"
+version: "1.0.0"
+config-version: 2
+
+profile: "mediflow"
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+
+models:
+  mediflow:
+    +materialized: view
+    staging:
+      +schema: stg
+    core:
+      +schema: core
+    marts:
+      +schema: marts
