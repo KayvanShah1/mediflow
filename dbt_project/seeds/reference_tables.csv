@@ -1,0 +1,5 @@
+type,code,description
+DRG,001,Heart transplant or implant
+DRG,470,Major joint replacement
+STATE,CA,California
+STATE,NY,New York
