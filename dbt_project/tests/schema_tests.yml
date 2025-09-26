@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: raw
+    database: {{ env_var('SNOWFLAKE_DATABASE', 'MEDIFLOW') }}
+    schema: RAW
+    tables:
+      - name: claims
+      - name: providers
+
+models:
+  - name: stg_claims
+    columns:
+      - name: claim_id
+        tests:
+          - not_null
+          - unique
+      - name: allowed_amount
+        tests:
+          - not_null
+  - name: dim_provider
+    columns:
+      - name: provider_id
+        tests:
+          - not_null
+          - unique
