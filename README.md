@@ -1,4 +1,5 @@
 # MediFlow: Healthcare Data Integration & Analytics
+![Representational Image](https://pixelplex.io/wp-content/uploads/2023/12/big-data-analytics-healthcare-examples-main.jpg)
 
 ## Introduction
 MediFlow is an end-to-end data engineering project that demonstrates how to build **scalable, reliable, and tested pipelines** for healthcare-style datasets.  
